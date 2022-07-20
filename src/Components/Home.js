@@ -13,7 +13,7 @@ export default function Home() {
         <Row xs={2} md={2} className="g-4">
         <Col className="tagCol">
           <Card>
-          <Button href="info">Python</Button>{' '}
+          <Button  variant="dark" href="info">Python</Button>{' '}
             <Card.Body>
               <Card.Title>Python</Card.Title>
               <Card.Text>
@@ -24,7 +24,7 @@ export default function Home() {
             </Card.Body>
           </Card>
           <Card>
-          <Button href="/">JavaScript</Button>{' '}
+          <Button variant="dark" href="/">JavaScript</Button>{' '}
             <Card.Body>
               <Card.Title>Javascript</Card.Title>
               <Card.Text>
@@ -33,7 +33,7 @@ export default function Home() {
             </Card.Body>
           </Card>
           <Card>
-          <Button href="/Question">React</Button>{' '}
+          <Button variant="dark" href="/Question">React</Button>{' '}
             <Card.Body>
               <Card.Title>React</Card.Title>
               <Card.Text>
@@ -42,7 +42,7 @@ export default function Home() {
             </Card.Body>
           </Card>
           <Card>
-          <Button href="#">Django</Button>{' '}
+          <Button variant="dark" href="#">Django</Button>{' '}
             <Card.Body>
               <Card.Title>Django</Card.Title>
               <Card.Text>

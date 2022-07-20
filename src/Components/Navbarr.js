@@ -13,9 +13,10 @@ export default function Navbarr() {
         <Container>
           <Navbar.Brand href="/Home">endTrouble</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link to="/Home">Home</Nav.Link>
+            <Nav.Link href="/Home">Home</Nav.Link>
             <Nav.Link href="/Question">Question</Nav.Link>
             <Nav.Link href="/Users">Users</Nav.Link>
+            <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/">Login</Nav.Link>
           </Nav>
         </Container>
