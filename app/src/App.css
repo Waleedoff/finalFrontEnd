@@ -37,13 +37,14 @@
   }
 }
 body{
-  background-color: rgb(52, 110, 110) !important;
+  background-color: rgb(24, 55, 55) !important;
 }
 .cardContainer{
   margin-top: 2px;
   margin-bottom: 3px !important;
   /* background-color: #282c34; */
   color: aliceblue;
+  border-radius: 9px !important;
 }
 .Card{
   background-color: darkslategrey !important;
@@ -55,8 +56,46 @@ width: 20%;
 height: 20%;
 left: 50% !important;
 transition: 0.5s;
+z-index: 1 !important;
+/* margin-left: 50% !important; */
 
 }
 .img:hover{
   transform: scale(2);
+}
+.images{
+  width: 50px;
+  height: 400px;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  padding: 90px;
+  border-radius: 9px;
+  color: white
+}
+.imgUsers{
+  opacity: 0.3;
+}
+.imgUsers:hover{
+  opacity: 1;
+}
+.login{
+
+  width: 100%;
+}
+.tagContainer{
+  margin-left: 500px !important;
+  /* margin-top: 10px!important; */
+}
+
+.tagCol{
+  margin-bottom: 10px;
+}
+.card
+{
+  margin: 9px;
 }
