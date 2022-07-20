@@ -37,7 +37,7 @@ function Login() {
    
       <Form className="form">
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label><h5>First Name</h5></Form.Label>
+        <Form.Label><h5>user name</h5></Form.Label>
         <Form.Control type="email" placeholder="Enter Username " onChange={(e) => {
           setFirstName(e.target.value);
         }} />
@@ -49,7 +49,7 @@ function Login() {
           setPassWord(e.target.value);
         }} />
       </Form.Group>
-   
+   s
       <Button className="login"variant="dark" type="submit" onClick={postData}>
         Login
       </Button>
