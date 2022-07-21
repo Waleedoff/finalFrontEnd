@@ -37,7 +37,7 @@
   }
 }
 body{
-  background-color: rgb(24, 55, 55) !important;
+  background-color: rgb(14, 32, 32) !important;
 }
 .cardContainer{
   margin-top: 2px;
@@ -98,4 +98,5 @@ z-index: 1 !important;
 .card
 {
   margin: 18px;
+  /* background: wheat !important; */
 }

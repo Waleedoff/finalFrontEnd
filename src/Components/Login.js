@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 
 function Login() {
   const navigate = useNavigate();
-  const [firstName, setFirstName] = useState("");
+  const [userName, setUserName] = useState("");
   const [passWord, setPassWord] = useState("");
  const logOut= () =>{
 
@@ -17,7 +17,7 @@ function Login() {
   const postData = () => {
     axios
       .post(`https://62d3e352cd960e45d44f7d6d.mockapi.io/fakeAPI`, {
-        firstName,
+        userName,
         passWord,
       })
       .then((res) => {
@@ -39,7 +39,7 @@ function Login() {
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label><h5>user name</h5></Form.Label>
         <Form.Control type="email" placeholder="Enter Username " onChange={(e) => {
-          setFirstName(e.target.value);
+          setUserName(e.target.value);
         }} />
        
       </Form.Group>
@@ -49,7 +49,7 @@ function Login() {
           setPassWord(e.target.value);
         }} />
       </Form.Group>
-   s
+   
       <Button className="login"variant="dark" type="submit" onClick={postData}>
         Login
       </Button>
